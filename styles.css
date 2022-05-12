@@ -10,27 +10,9 @@ tei-del {
   position:relative;
 }
 
-tei-del[implication=passion] {
+tei-del[implication] {
   vertical-align: super;
   color:rgb(231, 42, 13);
-  position:relative;
-}
-
-tei-del[implication=beauty] {
-  vertical-align: super;
-  color:rgb(28, 11, 216);
-  position:relative;
-}
-
-tei-del[implication=intimacy] {
-  vertical-align: super;
-  color:rgb(119, 128, 0);
-  position:relative;
-}
-
-tei-del[implication=fatality] {
-  vertical-align: super;
-  color:rgb(203, 7, 200);
   position:relative;
 }
 
