@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <!-- playing around with a button
+    <div><input type="text" name="labels" id="input_labels">
+      <button type="button" onclick="myFunction()">sumbit</button></div>
+    end of the button play -->
+    <div id="TEI">
+      Sadly, this page will not work in Internet Explorer and some older browsers. We suggest you use a newer version of Chrome or Firefox.
+    </div>
+    <script src="../js/CETEI.js"></script>
+    <script>
+      var c = new CETEI();
+      /***********************************
+       * Behaviors, i.e. ways you want specific elements to be handled that
+       * you can't do with CSS, can be injected by calling the addBehaviors
+       * method, passing it an object
+       ***********************************/
+        // // Overrides the default ptr behavior, displaying a short link instead
+        // "ptr": function(elt) {
+        //   var link = document.createElement("a");
+        //   link.innerHTML = elt.getAttribute("target").replace(/https?:\/\/([^\/]+)\/.*/, "$1");
+        //   link.href = elt.getAttribute("target");
+        //   return link;
+        // },
+        // // Adds a new handler for <term>, wrapping it in an HTML <b>
+        // "term": function(elt) {
+        //     var b = document.createElement("b");
+        //     b.innerHTML = elt.innerHTML;
+        //     return b;
+        // },
+        // // Inserts the first array element before tei:add, and the second, after.
+        // "add": ["`","´"]
+      let behaviors = {
+        "tei": {
+          // // this click function gets cancelled out by the mouseover one?
+          // "del": function(elt) {
+          //   elt.addEventListener('click', function handleClick(event) {
+          //     console.log('element clicked 🎉🎉🎉 here is event info: ', event);
+          //     console.log("the implication is: " + (elt.getAttribute("implication")));
+          //     });
+          //   },
+
+            // create mouseover effect with console log of implication
+            "del": function(elt) {
+            elt.addEventListener('mouseover', function handleHover(event) {
+              result = elt.hasAttribute("implication");
+              if (result) {
+                console.log('element moused-over with: '+ elt.getAttribute("implication"));
+              }
+              });
+            elt.setAttribute("class", "test");
+            }
+        }
+      }
+      c.addBehaviors(behaviors);
+      c.getHTML5('tei.xml', function(data) {
+        document.getElementById("TEI").innerHTML = "";
+        document.getElementById("TEI").appendChild(data);
+      });
+    </script>
+    <!-- script for the button
+    <script>
+      function myFunction() {
+        let inputText = document.getElementById("input_labels").value;
+        console.log("Button works, saved: " + inputText);
+        alert("Button has saved the following: " + inputText);
+      }
+    </script> -->
+    end of button script
+  </body>
+</html>

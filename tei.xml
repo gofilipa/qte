@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model
+href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+?>-->
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 tei_ms.odd" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Picture of Dorian Gray</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Morgan Library Manuscript. Original manuscript version in thirteen chapters. Revised
+               for publication in periodical format in 1890 (DG90) and as print book in 1891 (DG91).
+               Contains pre-published materials in Morgan Manuscript (MS) and Clark Typescript
+               (TS).</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>New York, NY</settlement>
+                  <repository>Pierpont Morgan Library Dept. of Literary and Historical
+                     Manuscripts</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p>264 [i.e., 262] leaves.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" n="1">
+            <head>Chapter 1</head>
+            <p> The studio was filled with the rich odour of roses, and when the light summer wind
+               stirred amidst the trees of the garden there came through the open door the heavy
+               scent of the lilac, or the more delicate perfume of the <add place="above">pink</add>
+               flowering thorn. </p>
+            <p> From the corner of the divan of Persian saddle-boys on which he was lying, smoking,
+               as <mod type="subst">
+                  <del rend="strikethrough"> was his custom, </del>
+                  <add place="above"> usual </add>
+               </mod> innumerable cigarettes, Lord Henry Wotton could just catch the <del
+                  rend="strikethrough">
+                  <gap reason="illegible"/>
+               </del> gleam of the honey-sweet and hony-colored blossoms of the laburnum, that was
+               hanging from the tremulous branches that seemed hardly able to bear the burden of a
+               beauty so flame-like as theirs: and, now and then, the fantastic shadows of birds in
+               flight flitted across the long tussore-silk curtains that were stretched in front of
+               the huge window, producing a kind of momentary Japanese effect, and making him think
+               of those pallid jade-faced painters who, in an art that is seemingly immobile, seek
+               to convey the laws of swiftness and motion. The sudden murmur of the bees shouldering
+               their way through the long unmown grass or circling with monotonous insistance round
+               the black-crocketed spines of the early <add place="above"> June </add> holly-hocks,
+               seemed to make the stillness more oppressive, <del rend="strikethrough">
+                  <gap reason="illegible"/>
+               </del> and the dim roar of London was like the bourdon note of <add place="above"> a
+                  distant </add> organ. </p>
+            <p> In the center of the room, <mod type="subst">
+                  <del rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del>
+                  <add place="above"> clamped to </add>
+               </mod> an upbright easel, <add place="above"> was standing </add> the full-length
+               portrait of a young man of extraodinary personal beauty, and in front of it, some
+               little distance away, <del rend="strikethrough">was sitting</del> sat the <mod
+                  type="subst">
+                  <del rend="strikethrough">painter</del>
+                  <add place="above">artist himself,</add>
+               </mod> Basil Hallward, whose sudden disappearance some years ago caused <add
+                  place="above">at the time</add> such <add place="above">public</add> excitement,
+               and <mod type="subst">
+                  <del rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del>
+                  <add place="above">gave rise to so many strange</add>
+               </mod> conjectures. </p>
+            <p> As he looked at the gracious and comely form he had so skillfully mirrored in his
+               art, a <del implication="inconclusive" strokes="2">
+                  <unclear reason="illegible">delicate</unclear>
+               </del> smile of pleasure passed across his face, and seemed about to linger there.
+               But he suddenly started up, and closing his eyes placed his fingers upon the lids, as
+               though he sought to imprison within his brain some <mod type="subst">
+                  <del rend="strikethrough" implication="illegible" strokes="2">
+                     <gap reason="illegible"/>
+                     <add place="above">
+                        <gap reason="illegible"/>
+                     </add>
+                  </del>
+                  <add place="above">curious</add>
+               </mod> dream from which he feared he might awake. </p>
+            <p>
+               <quote>"It is your best work, Basil, the best thing you have ever done," said Lord
+                  Henry languidly. "You must certainly send it <add place="above">next year</add> to
+                  the Grosvenor. The Academy is too large, and too vulgar. The Grosvenor is the only
+                  place." </quote>
+            </p>
+            <p>
+               <quote> "I don't think I will send it will send it any where," he answered, tossing
+                  his head back in that odd way that used to make <mod type="subst">
+                     <del rend="strikethrough">
+                        <unclear reason="illegible">us</unclear>
+                     </del>
+                     <add place="above">his friends</add>
+                  </mod> laugh at him in Oxford. "No: I won't send it anywhere. And yet, you are
+                  quite right about it. It is my best work." </quote>
+            </p>
+            <p> Lord Henry elevated his eyebrows, and looked at him in amazement through the thin
+               blue wreathes of smoke that curled <mod type="subst">
+                  <del rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del>
+                  <add place="above">up in such fanciful whorls</add>
+               </mod> from his heavy opium-tainted cigarette. <quote> "Not send it anywhere? My dear
+                  fellow, why? Have you got any reason? What odd chaps you painters are! You do any
+                  thing in the world to gain a reputation. And soon as you have <mod type="subst">
+                     <del rend="strikethrough">it</del>
+                     <add place="above">one</add>
+                  </mod> you seem to want to throw it away. It is silly of you, for there is only
+                  one thing in the world worse than being talked about, and that is not being talked
+                  about. A portrait like this would set you far above all the young men in England,
+                  and make the old men <add place="above">quite</add> jealous, if old men are <add
+                     place="above">even</add> capable of any emotion." </quote>
+            </p>
+            <p>
+               <quote> "I know you will laugh at me," he replied, "but I really cannot exhibit it. I
+                  have put too much of myself into it." </quote> Lord Henry stretched his long legs
+               out on the divan, and shook with laughter. <quote> "Yes: I knew you would laugh, but
+                  it is quite true, all the same." </quote>
+            </p>
+            <p>
+               <quote> "Too much of yourself in it! Upon my word, <add place="above">Basil,</add> I
+                  didn't know you were so vain, and I really can't see any resemblance between you
+                  with your rugged strong face, and your coal-black hair, and this young Adonis, who
+                  looks as if he was made of ivory and rose-leaves. Why, my dear Basil, he is a
+                  Narcissus! And you–-well of course you have an intellectual expression, and all
+                  that. But Beauty, real Beauty, <mod type="subst">
+                     <del rend="strikethrough">only begins</del>
+                     <add place="above">ends</add>
+                  </mod> where an intellectual expression begins. Intellect is in itself an
+                  exaggeration, and destroys the harmony of any face. The moment one <del
+                     rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del> sits down to think, one becomes all nose, or all forehead, or something
+                  horrid. Look at the successful men in any <mod type="subst">
+                     <del rend="strikethrough">
+                        <gap reason="illegible"/>
+                     </del>
+                     <add place="above">of the</add>
+                  </mod> learned professions. How perfectly hideous they are! Except of course in
+                  the Church. But then in the Church they don't think. A Bishop keeps on saying at
+                  the age of eighty what he was told to say when he was a boy of eighteen, and
+                  consequently he <add place="above">always</add> looks absolutely delightful. Your
+                  mysterious young friend, whose name you have never told me but whose picture
+                  really fascinates me, never thinks. I feel quite sure of that. He is a brainless,
+                  beautiful thing, who should be always here in winter when we have no flowers to
+                  look at, and <add place="above">always here</add> in summer when we want something
+                  to chill our intelligences. Don't flatter yourself, Basil. You are not in the
+                  least like him." </quote>
+            </p>
+            <p>
+               <quote> "You don't understand me, Harry. Of course I am not like him. I know that
+                  perfectly well. Indeed I should be sorry to look like him. You shrug your
+                  shoulders? I am telling you the truth. There is a fatality about all physical as
+                  well as intellectual distinction, the sort of fatality that seems to dog <mod
+                     type="subst">
+                     <del rend="strikethrough">the</del>
+                     <add place="above">through history the faltering</add>
+                  </mod> steps of Kings. It is better not to be different from one's fellows. The
+                  ugly and the stupid have the best of it in this world. They can sit quietly, and
+                  gape at the play. If they know nothing of victory, they are <mod type="subst">
+                     <del rend="strikethrough">
+                        <unclear>saved</unclear>
+                     </del>
+                     <add>at least spared</add>
+                  </mod> the knowledge of defeat. They live as we all should live, undisturbed,
+                  indifferent, and without disquiet. They neither bring ruin upon others, nor ever
+                  receive it from alien hands. Your rank and wealth, Harry; my brains, such as they
+                  are, my fame, whatever it may be worth; Dorian Grey's <mod type="subst">
+                     <del rend="strikethrough" strokes="2" implication="beauty">beauty;</del>
+                     <add place="above">good looks;</add>
+                  </mod> we will all suffer for what the Gods have given us, suffer terribly."
+               </quote>
+            </p>
+            <p>
+               <quote> "Dorian Grey? Is that his name?" said Lord Henry, walking across the studio
+                  toward Basil Hallward. </quote>
+            </p>
+            <p>
+               <quote> "Yes: that is his name. I did'nt intend to tell <add place="above">it
+                     to</add> you." </quote>
+            </p>
+            <p>
+               <quote> "But why not?" </quote>
+            </p>
+            <p>
+               <quote> "Oh! I can't explain. <del rend="strikethrough" strokes="1"
+                     implication="illegible">
+                     <gap reason="illegible"/>
+                  </del> When I like people immensely, I <mod type="subst">
+                     <del rend="strikethrough">cannot</del>
+                     <add place="above">never</add>
+                  </mod> tell their names to any one. It seems like surrendering a part of them. You
+                  know how I love secrecy. It is the only thing that can make a modern life
+                  woderful, or mysterious to us. The commonest thing is delightful if one only hides
+                  it. When I <mod type="subst">
+                     <del rend="strikethrough">dine out</del>
+                     <add place="above">leave town</add>
+                  </mod> I never tell my people where I am going. If I did, I would lose all my
+                  pleasure. It is a silly habit, I daresay, but somehow it <del rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del> seems to bring a great deal of romance into one's life. I suppose you think
+                  me awfully foolish about it?" </quote>
+            </p>
+            <p>
+               <quote> "Not at all," answered Lord Henry, laying his hand upon his shoulder; "not at
+                  all, my dear Basil. You seem to forget that I am married, and the one charm of
+                  marriage is that it makes a life of deception absolutely necessary for both
+                  parties. I never know <mod type="subst">
+                     <del rend="strikethrough">what</del>
+                     <add place="above">where</add>
+                  </mod> my wife is <del rend="strikethrough">doing</del> , and my wife never knows
+                     <mod type="subst">
+                     <del rend="strikethrough">where</del>
+                     <add place="above">what</add>
+                  </mod> I am <add place="above">doing</add> When we meet--we do meet occasionally,
+                  when we dine, out <add place="above">together</add> or go down to the Duke's--we
+                  tell each other the most absurd stories with the most serious faces. My wife is
+                  very good at it, much better in fact than I am. She never gets confused over her
+                  dates, and I always do. But when she does find me out, she never makes a row. I
+                  sometimes wish she did, but she merely laughts at me." </quote>
+            </p>
+            <p>
+               <quote> "I hate the way you talk about your married life, Harry," said Basil
+                  Hallward, shaking his hand off, and strolling towards the door that led into the
+                  garden. "I believe that you are really a very good husband, but that you are
+                  thoroughly ashamed of your own virtues. You are an extraordinary fellow. You neve
+                  say a moral thing, and you never do a wrong thing. Your cynicism is simply a
+                  pose." </quote>
+            </p>
+            <p>
+               <quote> "Being natural is simply a pose, and the most irritating pose I know, <mod
+                     type="subst">
+                     <del rend="strikethrough" strokes="2">said</del>
+                     <add place="above">cried</add>
+                  </mod> Lord Henry laughing, and the two young men went out into the garden
+                  together, and for a time they did not speak. <del rend="strikethrough" strokes="2"
+                     >to each other.</del>
+               </quote>
+            </p>
+            <p> After a long pause Lord Henry pulled out his watch. <quote> "I am afriad I must be
+                  going Basil," he <mod type="subst">
+                     <del rend="strikethrough" strokes="3">said</del>
+                     <add place="above">murmured</add>
+                  </mod> and before I go I insist on you answering me a question I put to you <mod
+                     type="subst">
+                     <del rend="strikethrough" strokes="2">
+                        <gap reason="illegible"/>
+                     </del>
+                     <add place="above">half an hour</add>
+                  </mod> ago." </quote>
+            </p>
+            <p>
+               <quote> "What is that?" asked Basil Hallward, keeping his eyes fixed on the ground.
+               </quote>
+            </p>
+            <p>
+               <quote> "You know quite well." </quote>
+            </p>
+            <p>
+               <quote> "I do not, Harry." </quote>
+            </p>
+            <p>
+               <quote> "Well, I will tell you what it is." </quote>
+            </p>
+            <p>
+               <quote> "Please don't." </quote>
+            </p>
+            <p>
+               <quote> "I must. I want you to <mod type="subst">
+                     <del rend="strikethrough" strokes="1" implication="inconclusive">tell</del>
+                     <add place="above">explain to</add>
+                  </mod> me why you won't exhibit Dorian Gray's picture. I want the real reason."
+               </quote>
+            </p>
+            <p>
+               <quote> "I told you the real reason." </quote>
+            </p>
+            <p>
+               <quote> "No: you did not. You said it was because there was too much of yourself it.
+                  Now, that is childish." </quote>
+            </p>
+            <p>
+               <quote> "Harry," said Basil Hallward, <del rend="strikethrough" strokes="1"
+                     implication="intimacy"> taking hold of his hand and </del> looking him straight
+                  in the face, "Every portrait that is painted with <mod type="subst">
+                     <del rend="strikethrough" strokes="2" implication="passion">passion</del>
+                     <add place="above">feeling</add>
+                  </mod> is a portrait of the artist, not of the sitter. The sitter is merely the
+                  accident, the occasion. It is not he who is revealed by the painter, it is rather
+                  the painter who <add place="above">on the colours of the canvas</add> reveals
+                  himself. The reason why I will not exhibit this picture, is that I am afraid that
+                  I have shown in it the secret of my own soul." </quote>
+            </p>
+            <p> Lord Henry <mod type="subst">
+                  <del rend="strikethrough" strokes="1" implication="intimacy"> hesistated for a
+                     moment </del>
+                  <add place="above">laughed</add>
+               </mod>
+            </p>
+            <p>
+               <quote> "And what is that?" he asked. <del rend="strikethrough" strokes="1"
+                     implication="intimacy"> in a low voice </del>
+               </quote>
+            </p>
+            <p>
+               <quote> "I will tell you," said Hallward, and <mod type="subst">
+                     <del rend="strikethrough" strokes="inconclusive" implication="fatality"> a look
+                        of pain </del>
+                     <add place="above">an expression of perplexity</add>
+                  </mod> came over his face. </quote>
+            </p>
+            <p>
+               <quote>
+                  <mod type="subst">
+                     <del rend="strikethrough" strokes="1" implication="fatality">"Don't if you
+                        would rather not" </del>
+                     <add place="above">"I am all expectation, Basil"</add>
+                  </mod> murmured his companion, looking at him. </quote>
+            </p>
+            <p>
+               <quote> "Oh! There is really very little to tell you, Harry," answered the young
+                  painter; "and I am afraid you will hardly understand it." </quote>
+            </p>
+            <p> Lord Henry smiled, and leaning down plucked a ping-petalled daisy from the grass,
+               and examined it. <quote> "I am quite sure I shall understand <mod type="subst">
+                     <del rend="strikethrough">you</del>
+                     <add place="above">it</add>
+                  </mod> ," he replied, gazing intently at the little golden white-feathered disk.
+                     <del rend="strikethrough"> that has charmed all our poets from Chaucer to
+                     Tennyson </del>
+               </quote>
+            </p>
+            <p> The wind shook some blossoms from the trees, and the heavy lilac blooms, with their
+               clustering stars, moved to and fro in the languid air. A <mod type="subst">
+                  <del rend="strikethrough">bird</del>
+                  <add place="above">grasshopper</add>
+               </mod> began to <mod type="subst">
+                  <del rend="strikethrough">sing</del>
+                  <add place="above">chirrup</add>
+               </mod> in <mod type="subst">
+                  <del rend="strikethrough">a thicket</del>
+                  <add place="above">the grass</add>
+               </mod> , and a long thin dragon-fly floated <mod type="subst">
+                  <del rend="strikethrough">past</del>
+                  <add place="above">by</add>
+               </mod> on its brown gauze wings. Lord Henry felt as if he coul hear Basil Hallward's
+               heart beating, and he <mod type="subst">
+                  <del rend="strikethrough" strokes="2" implication="fatality"> heard his own
+                     breath, with a sense almost of fear </del>
+                  <add place="above">wondered what was coming.</add>
+               </mod>
+            </p>
+            <p>
+               <quote> "Yes: there is very little to tell you," repeated Hallward <add place="above"
+                     >rather bitterly</add> "and I <mod type="subst">
+                     <del rend="strikethrough">am afraid</del>
+                     <add place="above">daresay</add>
+                  </mod> you will be disappointed. Two months ago I went to a crush at Lady
+                  Brandon's. You know we poor painters have to show ourselves in society from time
+                  to time, just to remind the public that we are not savages. With an evening coat
+                  and a white tie, <add place="above">as you told me once</add> any body, <add
+                     place="above">even a stockbroker,</add> can gain a reputation for being
+                  civilized. Well, after I had been in the room about ten minutes, talking to huge
+                  over-scented dowagers and tedious academicians, I suddenly <mod type="subst">
+                     <del rend="strikethrough">felt</del>
+                     <add place="above">became conscious</add>
+                  </mod> that some one was looking at me. I turned half way round, and saw Dorian
+                  Gray for the first time. When our eyes met, I felt that I <mod type="subst">
+                     <del rend="strikethrough">grew</del>
+                     <add place="above">was growing</add>
+                  </mod> pale. A curious <mod type="subst">
+                     <del rend="strikethrough">feeling</del>
+                     <add place="above"><gap reason="illegible"/></add>
+                  </mod> of terror came over me. I knew that I had <del rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del> come <mod type="subst">
+                     <del rend="strikethrough">across</del>
+                     <add place="above">face to face with</add>
+                  </mod> someone whose mere personality was so fascinating that it would <mod
+                     type="subst">
+                     <del rend="strikethrough" strokes="3" implication="fatality"> be Lord over </del>
+                     <add place="above">absorb</add>
+                  </mod> my <mod type="subst">
+                     <del rend="strikethrough" strokes="2" implication="passion">life</del>
+                     <add place="above">nature</add>
+                  </mod> , my soul, my art itself. I did not want any <mod type="subst">
+                     <add place="above">extreme</add> influence <del rend="strikethrough"
+                        strokes="1" implication="inconclusive"> of that kind </del>
+                  </mod> in my life. You know yourself, Harry, how independant I have always been.
+                  My father destined me for the army. I insisted on going to Oxford. Then he made me
+                  enter my name at the middle temple. Before I had eaten half a dozen dinners I gave
+                  up the Bar, and announced my intention of becoming a painter. I have always been
+                  my own master; had at least always been so till I met Dorian Gray. Then – but I
+                     <del rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del> don't know how to explain it to you. Something seemed to tell me that I was
+                  on the verge of <del rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del> a terible crisis in my life. I had a strange feeling that <mod type="subst">
+                     <del rend="strikethrough">
+                        <gap reason="illegible"/>
+                     </del>
+                     <add place="above">fate</add>
+                  </mod> had in store for me exquisite joys and exquisite sorrows. I knew that if I
+                  spoke to him, I would <mod type="subst">
+                     <del rend="strikethrough" strokes="1" implication="fatality"> never leave him
+                        till either he or I were dead </del>
+                     <add place="above"> become absolutely devoted to him, and that I ought not to
+                        speak to him. </add>
+                  </mod> I grew afraid, and turned to <mod type="subst">
+                     <del rend="strikethrough">leave</del>
+                     <add place="above">quit</add>
+                  </mod> the room. It was not conscience <add place="above">that made me do
+                     so,</add> it was cowardice. I <del rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del> take no credit to myself for trying to escape." </quote>
+            </p>
+            <p>
+               <quote> "Conscience and cowardice are really the same things, Basil. Conscience is
+                  the trade-name of the firm, that is all." </quote>
+            </p>
+            <p>
+               <quote> "I <mod type="subst">
+                     <del rend="strikethrough">am not sure of that <add place="above">Harry</add>
+                     </del>
+                     <add place="above">don't believe that, Harry</add>
+                  </mod> However, whatever was my motive, and it may have been pride, for I used to
+                  be very proud, I certainly struggled to the door. There of course I stubled
+                  against Lady Brandon. <quote> "You are not going to run away so soon, Mr.
+                     Hallward?" She screamed out. </quote> You know her shrill horrid voice?"
+               </quote>
+            </p>
+            <p>
+               <quote> "Yes: she is a peacock in every thing but beauty," said Lord Henry, pulling
+                  the daisy to bits with his long nervous fingers. </quote>
+            </p>
+            <p>
+               <quote> "I could not get rid of her. She brought me up to the Royalties, and people
+                  with Stars and Garters, and elderly ladies with gigantic tiaras <add place="above"
+                     >and hooked noses.</add> She spoke of me as her dearest friend. I had only met
+                  her once before, but she took it into her head to lionize me. I believe some
+                  picture of mine had made a great success at the time, at least had been chattered
+                  about in the penny newspapers, which is the nineteenth century app> <mod
+                     type="subst">
+                     <del rend="strikethrough">
+                        <gap reason="illegible"/> of fame </del>
+                     <add place="above">standard of immortality</add>
+                  </mod> Suddenly I found myself face to face with the young man whose <mod
+                     type="subst">
+                     <del rend="strikethrough" strokes="2" implication="beauty">beauty</del>
+                     <add place="above">personality</add>
+                  </mod> had so <add place="above">strangely</add> stirred me. We were quite close,
+                  almost touching. Our eyes met, again. It was mad of me, but I asked Lady Brandon
+                  to introduce me to him. Perhaps it was not so mad after all. It was simply
+                  inevitable. We would have spoken to each other without any introduction. I am sure
+                  of that. Dorian told me so afterwards." </quote>
+            </p>
+            <p>
+               <quote> "And how did Lady Brandon describe this wonderful young <mod type="subst">
+                     <del rend="strikethrough" strokes="2" implication="beauty">narcissus</del>
+                     <add place="above">man</add>
+                     <del/>
+                  </mod> ? I know she gives in for giving a rapid precis of <add place="above"
+                     >all</add> her guests. I remember her bringing <del rend="strikethrough">up
+                     to</del> me up to a most truculent and red-faced old <mod type="subst">
+                     <del rend="strikethrough">man</del>
+                     <add place="above">gentleman</add>
+                  </mod> covered all over with orders and ribands, and hissing into my ear in a
+                  tragic whisper, which must have been perfectly audible to every body in the room,
+                  something like <quote> 'Sir Humpty Dumpty – you know – Afghan frontier – Russian
+                     intelligence: very successful man – <del rend="strikethrough">quite
+                        inconsolable</del>
+                     <del rend="strikethrough">wants to marry</del> wife killed by an elephant –
+                     quite inconsolable – wants to marry a <add place="above">beautiful</add>
+                     American widow <add place="above">every body does now-a-days</add> – hates Mr.
+                     Gladstone – but very much interested in beetles – ask him about the new <del
+                        rend="strikethrough">
+                        <gap reason="illegible"/>
+                     </del> military frontier.' </quote>
+                  <del rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del> I simply fled. I like to find out people for myself. But poor Lady Brandon
+                  treats her guests, exactly as an auctioneer treats his goods. She either explains
+                  them <add place="above">entirely</add> away or tells one everything about them
+                     <mod type="subst">
+                     <del rend="strikethrough">that one does not</del>
+                     <add place="above">except what one</add>
+                  </mod> wants to know. But what did she say about Mr. Dorian Gray?" </quote>
+            </p>
+            <p>
+               <quote> "Oh, she murmered, <quote> 'charming boy – going to be so rich – mother and I
+                     great friends – engaged to be married to the same man – I mean married on the
+                     same day – how very silly of me! Quite forget what he does – afriad he doesn't
+                     do anything – oh, yes plays the piano – or is it the violin, dear Mr. Gray?'
+                  </quote> We could niether of us help laughing, and we became friends at once."
+               </quote>
+            </p>
+            <p>
+               <quote> "Laughter is not a bad beginning for for a friendship, and it is the best
+                  ending for one," said Lord Henry plucking another daisy. </quote>
+            </p>
+
+            <p> Hallward burried his face <del rend="strikethrough">
+                  <gap reason="illegible"/>
+               </del> in his hands. <quote> "You don't understand what friendship is, Harry," he
+                  murmured," or what enmity is for that matter. You like every one, <mod
+                     type="subst">
+                     <del rend="strikethrough">which is the same as <gap reason="illegible"/>
+                     </del>
+                     <add place="above">that is to say</add>
+                  </mod> you are indifferent to every one." </quote>
+            </p>
+            <p>
+               <quote> "How horridly unjust of you," cried Lord Henry, tilting his hat back, and
+                  looking up at the little clouds that were drifting across the hollowed turquoise
+                  of the <add place="above">summer</add> sky, like ravelled skeins of glossy white
+                  silk, were drifting across the hollowed turquoise of the summer sky. </quote>
+               <quote> "Yes" horribly unjust of you. I make a great different between people. I
+                  choose my friends for their good looks: my acquaintences for their characters: and
+                  my enemies for their brains. A man can't be too careful in the choice of his
+                  enemies. I have not got one who is a fool. They are all men of some intellectual
+                  power, and consequently they all appreciate me. Is that very vain of me? I think
+                  it is rather vain." </quote>
+            </p>
+            <p>
+               <quote> "I should think it was, Harry. But according to your category, I must be
+                  merely an acquaintance." </quote>
+            </p>
+            <p>
+               <quote> "My dear old Basil, you are much more than an acquaintance…" </quote>
+            </p>
+            <p>
+               <quote> "And much less than a friend. A sort of brother, I suppose?" </quote>
+            </p>
+            <p>
+               <quote> "Oh! Brothers! I don't care for brothers. My elder brother won't die, and my
+                  younger brothers <add place="above">seem</add> never <add place="above">to</add>
+                  do anything else." </quote>
+            </p>
+            <p>
+               <quote> "Harry!" </quote>
+            </p>
+            <p>
+               <quote> "My dear fellow, I am not quite serious. But I can't help detesting my
+                  relations. I suppose it comes from the fact that we can't stand other people
+                  having the same faults as ourselves. I quite sympathize with the rage of the <add
+                     place="above">English</add> democracy <del rend="strikethrough">to
+                     English</del> against what they call the vices of the upper classes. They <mod
+                     type="subst">
+                     <del rend="strikethrough">seem to think</del>
+                     <add place="above">feel</add>
+                  </mod> that drunkenness, <unclear>and</unclear> stupidity, <add place="above">and
+                     immorality</add> should be their own special property, and that if any one of
+                  us makes an ass of himself <mod type="subst">
+                     <del rend="strikethrough">he is</del>
+                     <add place="above">we are</add>
+                  </mod> poaching on their preserves. When poor Southwark got into the Divorce
+                  Court, their <mod type="subst">
+                     <del rend="strikethrough">rage</del>
+                     <add place="above">indignation</add>
+                  </mod> was quite magnificant. And yet I don't suppose that ten per cent of the
+                  lower orders live with their own wives." </quote>
+            </p>
+            <p>
+               <quote> "I don't agree with a single word that you have said, and, what is more, <add
+                     place="above">Harry,</add> I don't believe you do either." </quote>
+            </p>
+            <p>
+               <quote> "Lord Henry <del rend="strikethrough">pulled his little straw-colored
+                     mousatache, and</del> stroked his pointed <mod type="subst">
+                     <del rend="strikethrough">
+                        <unclear>Henry</unclear>
+                        <gap reason="illegible"/>
+                     </del>
+                     <add place="above">brown</add>
+                  </mod> beard, and tapped the toe of his patent-leather boot with a <mod
+                     type="subst">
+                     <del rend="strikethrough">thick</del>
+                     <add place="above">tassled</add>
+                  </mod> malacca-cane. How English you are, Basil! If one puts forward an idea to a
+                  real Englishman – always a rash thing to do – he never dreams of considering
+                  whether the idea is right or wrong. the only thing he considers of any important
+                  is whether one <del rend="strikethrough">is sincere or putting it forward</del>
+                  believes it oneself. Now the value of an idea has nothing whatsoever to do with
+                  the sincerity of the man who expresses it. Indeed the probabilities are that the
+                  more insincere the man is, the more purely intellectual will the idea be, as <add
+                     place="above">in that case</add> it will not be coloured by either his wants,
+                  his desires, or his prejudices. However, I don't propose to discuss <del
+                     rend="strikethrough">
+                     <gap reason="illegible"/>
+                  </del> politics, sociology, or metaphysics with you. I like persons better than
+                  principle. Tell me more about Dorian Gray. How often do you see him?" </quote>
+            </p>
+            <p>
+               <quote> "Every day, Harry. I could <mod type="subst">
+                     <del rend="strikethrough" strokes="2" implication="fatality">not live</del>
+                     <add>n't be happy</add>
+                  </mod> if I did <mod type="subst">
+                     <del rend="strikethrough">not</del>
+                     <add>n't</add>
+                  </mod> see him every day. Of course, sometimes it is only for a few minutes, But a
+                  few minutes with somebody one worships mean a great deal." </quote>
+            </p>
+            <p>
+               <quote>
+                  <mod type="subst">
+                     <bdel rend="strikethrough"> And </bdel>
+                     <add place="above">But</add>
+                  </mod> you <add place="above">don't</add> really worship him?" </quote>
+            </p>
+            <p>
+               <quote> "I do." </quote>
+            </p>
+            <p>
+               <quote> "How extraordinary! I thought you would never care for anything but your
+                  painting – your art, I should say. Art sounds better, doesn't it?" </quote>
+            </p>
+            <p>
+               <quote> "He is all my art to me now. I sometimes think, Harry, that there are only
+                  two eras <add place="above">of any importance</add> in the history of <mod
+                     type="subst">
+                     <del rend="strikethrough"> earth </del>
+                     <add place="above"> the world. The first is </add>
+                  </mod> the difference of a new medium <add place="above">in art</add> and the
+                  second is <add place="above">the</add> difference of a new personality <add
+                     place="above">for art also.</add> What the invention of oil-painting was to the
+                  Venetians, the <mod type="subst">
+                     <del rend="strikethrough" strokes="1" implication="beauty"> beauty </del>
+                     <add place="above">face</add>
+                  </mod> of Antinous was to late Greek sculpture, and the <mod type="subst">
+                     <del rend="strikethrough" strokes="2" implication="beauty"> beauty </del>
+                     <add place="above">face</add>
+                  </mod> of Dorian Gray will some day be to me. It is not merely that I paint from
+                  him, draw from him, model from him. Of course I have done all that. He has stood
+                  as Paris in dainty armour, and as Adonis with huntsman's cloak and polished
+                  boar-spear. Crowned with heavy lotus-blossoms he has sat on the prow of Adrian's
+                  barge lookinginto the green turbid Nile. He has leaned over the still pool of some
+                  Greek woodland, and seen in the water's silent silver the wonder of his own <mod
+                     type="subst">
+                     <del rend="strikethrough" strokes="1" implication="beauty"> beauty </del>
+                     <add place="above">face</add>
+                  </mod> But he is much more to me than that. I won't tell you that I am
+                  dissatisfied with what I have done of him, or that his beauty is such that art
+                  cannot expres it. There is nothing that art cannot express, and I know the work
+                  that I have done, since I met Dorian Gray, is <del rend="strikethrough">the</del>
+                  good work, is the best work of my life. But in some curious way – I wonder will
+                  you understand me – his personality has suggested to me an entirely new manner in
+                  art, an entirely new mode of style. I see things differently, I think of them
+                  differently. I can now recreate life in a way that was hidden from me before. "A
+                  dream of form in days of thought" – who is it <mod type="subst">
+                     <del rend="strikethrough">that</del>
+                     <add place="above">who</add>
+                  </mod> says that? – I forget; – but it is what Dorian Gray has been to me. The
+                  merely visible presence of this <mod type="subst">
+                     <del rend="strikethrough">boy</del>
+                     <add place="above">lad</add>
+                  </mod> though <mod type="subst">
+                     <del rend="strikethrough"> twenty summers have shown him roses less scarlet
+                        than his lips </del>
+                     <add place="above">he is <del rend="strikethrough">just</del>over twenty </add>
+                  </mod> his merely visible presence, ah! I wonder can you realize all that that
+                  means. Unconsciously he defines for me the lines of a fresh school, a school that
+                  is to have in itself all the passion of the <mod type="subst">
+                     <del rend="strikethrough">
+                        <gap reason="illegible"/>
+                     </del>
+                     <add place="above">romantic</add>
+                  </mod> spirit, all the perfection of the spirit that is Greek. The harmony of soul
+                  and body – how much that is! We in our madness have separated the two, and have
+                  invented as a realism that is bestial, an ideality that is void. Harry! Harry! if
+                  you only knew what Dorian Gray is <add place="above">to me.</add> You remember
+                  that landscape of mine, for which Agnew offered me such <gap reason="illegiible"
+                  />a <gap reason="illegible"/>
+                  <add place="above">huge</add> price, but which I would not part with? It is one of
+                  the best things I have ever done. And why is it so? Because, while I was painting
+                  it, Dorian Gray sat beside me. <del rend="strikethrough" strokes="1"
+                     implication="passion"> and as he leaned across to look at it, his <del
+                        implication="intimacy"> cheek just brushed my cheek. <add place="above">hair
+                           just touched my hand.</add></del> The world becomes young to me when I
+                     hold his hand, as when I see him, the centuries yield up all their secrets!"
+                  </del>
+               </quote>
+            </p>
+            <p>
+               <quote> "Basil, this is <mod type="subst">
+                     <del rend="strikethrough" strokes="inconclusive" implication="fatality">
+                        <gap reason="illegible"/> you must not talk <gap reason="illegible"/> his
+                        power, you <gap reason="illegible"/> to make yourself the <gap
+                           reason="illegible"/> of <gap reason="illegible"/> slave! It is worse that
+                        wicked, it is silly. I hate Dorian Gray." </del>
+                     <add place="above">quite wonderful. I must see Dorian Gray.</add>
+                  </mod>
+               </quote>
+            </p>
+            <p> Hallward got up from the seat, and walked up and down the garden. <del
+                  rend="strikethrough"> A curious smile curled his lips. He seemed like a man in a
+                  dream. </del> After some time he came back. <quote> "You don't understand,
+                  Harry..." he said. "Dorian Gray is merely to me a motive in art. He is never more
+                  present in my work then when no image of him is there. He is simply a suggestion,
+                  as I have said, of a new manner. I see him in the curves of certain lines, in the
+                  loveliness and subtleties of certain colours. That is all." </quote>
+            </p>
+            <p>
+               <quote> "Then why won't you exhibit his <mod><del rend="strikethrough"
+                        >picture?</del><add place="above">portrait?</add></mod>
+               </quote>
+            </p>
+            <p>
+               <quote> "Because I have put into it <add place="above">all</add> the <add
+                     place="above">extraordinary</add> romance of which, <add place="above">of
+                     course,</add> I have never dared to speak to him. He knows nothing about it,
+                     <add place="above">he will never know anything about it,</add> but the world
+                     <mod type="subst">
+                     <del rend="strikethrough">would</del>
+                     <add place="above">might</add>
+                  </mod> guess it, <add place="above">and</add>
+                  <del rend="strikethrough" strokes="2" implication="passion"> where there is merely
+                     love, they would see something evil, where there is spectacular passion they
+                     would suggest something vile. </del> I will not bear my soul to their shallow
+                     <add place="above">prying</add> eyes. My heart shall <mod type="subst">
+                     <del rend="strikethrough" strokes="1" implication="passion"> not be made their
+                        mockery </del>
+                     <add place="above">never be put under their microscope.</add>
+                  </mod> There is too much of myself in <gap reason="illegible"/>
+                  <add place="above">the thing,</add> Harry, too much of myself! </quote>
+            </p>
+            <p>
+               <quote> "Poets are not so scrupulous as you are. They know how useful passion is for
+                  publication. Now-a-days a broken heart will run to many editions." </quote>
+            </p>
+            <p>
+               <quote> "I hate them for it. An artist should create beautiful things, but should put
+                  nothing of his own life into them. We live in an age which men treat art as if it
+                  were meant to be an autobiography. We have lost the abstract sense of beauty. If I
+                  live I will show the world what it is, and for that lesson the world shall never
+                  see my portrait of Dorian Gray." </quote>
+            </p>
+            <p>
+               <quote> "I think you are wrong, Basil, but I won't argue with you. It is only the
+                  intellectually lost who ever argue. Tell me; is Dorian Gray very fond of you?"
+               </quote>
+            </p>
+            <p> Hallward considers for a few moments. <quote> "He likes me," he answered after a
+                  pause; "I know he likes me. Of course I flatter him dreadfully. I find a strange
+                  pleasure in saying things to him that I know I <mod type="subst">
+                     <del rend="strikethrough">will</del>
+                     <add place="above">shall</add>
+                  </mod> be sorry for having said. I give myself away. <del rend="strikethrough"
+                     strokes="" implication="beauty"> I told him that beauty like his is genius, is
+                     higher <add place="above">
+                        <gap reason="illegible"/>
+                     </add> than genius, as it needs no explanation, and is one of the great facts
+                     of the world, like sunlight or spring time, or what <gap reason="illegible"/>
+                     the explanation in dark waters of that thin silver shell we call the moon.
+                  </del> As a rule, he is charming to me, and we walk home together, from the club,
+                  arm in arm, or sit in the studio <del rend="strikethrough" strokes="1"
+                     implication="intimacy"> beside each other </del> and talk of a thousand things.
+                  Now and then, <del rend="strikethrough" strokes="3" implication="illegible">
+                     <gap reason="illegible"/>
+                     <add place="above">
+                        <gap reason="illegible"/>
+                     </add>
+                     <gap reason="illegible"/>
+                  </del> however, he is horribly thoughtless, and seems to take a real delight in
+                  giving me pain. Then I feel, Harry, that I have given away my whole soul to
+                  someone <del rend="strikethrough" strokes="inconclusive" implication="fatality">
+                     seems to take a real delight in giving me pain. I can quite understand it. I
+                     can imagine myself doing it. But not to him, not to him. Once or twice we have
+                     been away together, then I have <add place="above"> had </add> him all to
+                     myself. I am horribly jealous of him, of course. I never let him talk to me of
+                     the people he knows. I like to isolate him from the rest of life, and to think
+                     that he absolutely belongs to me. He does not, I know. But it gives me pleasure
+                     to think that he does. Harry! I have given this <mod type="subst"> boy <add
+                           place="above">young man</add>
+                     </mod> my whole <gap reason="illegible"/>
+                  </del>
+                  <add>who</add> treats <gap reason="illegible"/> it as if it were a flower to put
+                  in his coat, a bit of decoration to charm his vanity, an ornament for a summer's
+                  day." </quote>
+            </p>
+            <p>
+               <quote> "Days in summer, Basil, are apt <mod type="subst">
+                     <del rend="strikethrough">wax long</del>
+                     <add place="above">linger</add>
+                  </mod> Perhaps you will tire sooner than he will. It is a bad thing to think of,
+                  but there is no doubt that genius lasts longer than beauty. That accounts for the
+                  fact that <mod type="subst">
+                     <del rend="strikethrough">we are all horribly overeducated</del>
+                     <add place="above">we all take such pains to overeducate ourselves</add>
+                  </mod> in the wild struggle for existence, we want to have something that endures,
+                  and so we fill our minds with rubbish and facts, in the silly hope of keeping our
+                  place. The thoroughly well-informed man – that is <mod type="subst">
+                     <del rend="strikethrough">what we all try to be.</del>
+                     <add place="above">the modern ideal.</add>
+                  </mod> And the mind of the thoroughly well-informed man is a dreadful thing. It is
+                  like a bric-a-brac shop, all monsters and dust, and every thing priced above its
+                  proper value. I think you will tire first, all the same. Some day you will look at
+                  him, and he will seem to you to be a little out of drawing, or you won't like his
+                  tone of colour, or something. You will bitterly reproach him in your own heart,
+                  and seriously think that he has behaved <mod type="subst">
+                     <del rend="strikethrough">
+                        <gap reason="illegible"/>
+                     </del>
+                     <add place="above">very badly to</add>
+                  </mod> you. The next time he calls, you will be perfectly cold aand indifferent.
+                  It will be a great pity, for it will alter you. The worst of having a romance is
+                  that it makes one so unromantic." </quote>
+            </p>
+            <p>
+               <quote> "Harry, don't talk like that. <del rend="strikethrough"> I am not afraid of
+                     things, but I am afraid of words. I cannot understand how it is that no
+                     prophecy has ever been fulfilled. None has, I know. And yet it seems to me that
+                     to say a thing, is to bring it to pass. Whatever has found expression becomes
+                     true, and what has not found expression can never happen. As for genius lasting
+                     longer than beauty – it is only the transitory that stirs me. What is permanent
+                     is monotonous, and produces no effect. Our senses become dulled by what is
+                     always with us. </del> As long as I live, the personality of Dorian Gray will
+                  dominate me. <del rend="strikethrough" strokes="inconclusive"
+                     implication="illegible"> If it <gap reason="illegible"/> memory, there will be
+                     a magic in it <gap reason="illegible"/> dream it will be more real than reality
+                  </del> You <mod type="subst">
+                     <del rend="strikethrough">cannot realize</del>
+                     <add place="above">can't feel</add>
+                  </mod> what I feel. You change too often." </quote>
+            </p>
+            <p>
+               <quote> "Ah! My dear Basil, that is exactly why I can feel it. Those who are faithful
+                  know only the pleasures of love, it is the faithless who know love's tragedies,"
+                  and Lord Henry struck a light on a dainy silver case, and began to smoke a
+                  cigarette with a self-conscious and self-satisfied air, as if he had summed up
+                  life in a phrase. </quote> There was a rustle of chirriping sparrows in the ivy,
+               and the blue cloud-shadows chased themselves across the grass like swallows. How
+               pleasant it was in the garden! And how delightful other people's emotions were! Much
+               more delightful than their ideas, it seemed to him. One's own soul, and the passions
+               of one's friends – those were the fascinating things in life. He thought with
+               pleasure of the tedious luncheon that he had missed by staying so long with Basil
+               Hallward. Had he gone to his aunt's, he would have been quite sure to have met Lord
+               Goodbody there, and the whole conversation would have been about the housing of the
+               poor, and the necessity for model lodging-houses. It was charming to have escaped all
+               that! As he thought of his aunt, an idea seemed to strike him. He turned to Hallward,
+               and said <quote> "My dear fellow, I have just remembered." </quote>
+            </p>
+            <p>
+               <quote> "Rememberd what, Harry?" </quote>
+            </p>
+            <p>
+               <quote> "Where I heard the name of Dorian Gray." </quote>
+            </p>
+            <p>
+               <quote> "Where <del rend="strikethrough"> I heard the name of </del> was it?" Asked
+                  Hallward, with a slight frown. </quote>
+            </p>
+            <p>
+               <quote> "Don't look so angry, Basil. It was at my aunt's, Lady Agatha's. She told me
+                  she had discovered a wonderful young man, who was going to help her in the East
+                  End, and that his name was Dorian Gray. I am bound to state that she never told me
+                  he was good-looking. Women have no appreciation of good looks. At least, good
+                  women have not. She saw that he was very earnest, and had a beautiful nature. I at
+                  once pictured to myself a creature with spectacles and <mod type="subst">
+                     <del rend="strikethrough">no</del>
+                     <add place="above">lank</add>
+                  </mod> hair, horribly freckled, and <mod type="subst">
+                     <del rend="strikethrough">with</del>
+                     <add place="above">tramping abouty on</add>
+                  </mod> huge feet. I wish I had known it was your friend." </quote>
+            </p>
+            <p>
+               <quote> "I am glad you didn't, Harry." </quote>
+            </p>
+            <p>
+               <quote> "Why?" </quote>
+            </p>
+            <p>
+               <quote> "I don't want you to meet him." </quote>
+            </p>
+            <p>
+               <quote> "Mr. Dorian Gray is in the studio, Sir" said the butler coming into the
+                  garden. </quote>
+            </p>
+            <p>
+               <quote> "You must introduce me now," <mod type="subst">
+                     <del rend="strikethrough">said</del>
+                     <add place="above">cried</add>
+                  </mod> Lord Henry, laughing. </quote>
+            </p>
+            <p> Basil Hallward turned to the <mod type="subst">
+                  <del rend="strikethrough">servant</del>
+                  <add place="above">butler</add>
+               </mod> who stood blinking in the sunlight. <quote> "Ask Mr. Gray to wait, Parker; I
+                  will be in in a few moments." </quote> The man bowed, and went up the walk. </p>
+            <p> Then he looked at Lord Henry. <quote> "Dorian Gray is my dearest friend," he said.
+                  "He has a simple and a beautiful nature. Your aunt was quite right in what she
+                  said of him. Don't spoil him for me. Don't try to influence him. Your influence
+                  would be bad. The world is wide, and has many marvellous people in it. Don't take
+                  away from me the one person that makes life <del rend="strikethrough">lovely</del>
+                  <add place="above">absolutely</add> lovely to me, and that gives me my art
+                  whatever wonder or charm it possesses. Mind, Harry, I trust you." </quote> He
+               spoke very slowly, and the words seemed wrung out of him as almost against his will. </p>
+            <p>
+               <quote>
+                  <del strokes="inconclusive" implication="passion"> I don't suppose I shall care
+                     for him, and I am quite sure he won't care for me,"</del>
+                  <add place="above">"What nonsense you talk," said</add> Lord Henry smiling, and,
+                  taking Hallward by the arm, he almost led him into the house. </quote>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
