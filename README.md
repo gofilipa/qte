@@ -1,4 +1,4 @@
-This project [publishes the TEI encoding](https://gofilipa.github.io/dorian_encoded/) of the first chapter of Oscar Wilde's manuscript, *The Picture of Dorian Gray* (1890). 
+This project [publishes the TEI encoding](https://gofilipa.github.io/qte) of the first chapter of Oscar Wilde's manuscript, *The Picture of Dorian Gray* (1890). 
 
 This project uses [ceTEIcean](https://github.com/TEIC/CETEIcean) 
 
